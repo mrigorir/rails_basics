@@ -1,0 +1,10 @@
+
+<h1><%= @article.title %></h1>
+
+<p><%= @article.body  %></p>
+
+<div>
+<%= link_to 'Editar artículo', edit_article_path%>
+
+<%= link_to 'Eliminar artículo', article_path, method: :delete %>
+</div>
